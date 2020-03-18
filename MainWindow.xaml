@@ -1,0 +1,35 @@
+﻿<Window x:Class="diplom.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:diplom"
+        mc:Ignorable="d"
+        Title="Peripheral Analisys Technology " Height="450" Width="1170">
+    <Menu Height="25" VerticalAlignment="Top">
+        <MenuItem Header="File">
+            <MenuItem Header="New Project" ></MenuItem>
+            <MenuItem Header="Open Project" >
+                <MenuItem Header="WinForms"></MenuItem>
+                <MenuItem Header="WPF" ></MenuItem>
+            </MenuItem>
+            <Separator />
+            <MenuItem Header="Exit" ></MenuItem>
+        </MenuItem>
+        <MenuItem Header="Справочник" ></MenuItem>
+        <MenuItem Header="Сотрудники" ></MenuItem>
+        <MenuItem Header="утилизация/брак" ></MenuItem>
+        <MenuItem Header="Отчеты" >
+            <MenuItem Header="Полный отчет по типу"></MenuItem>
+            <MenuItem Header="Отчет по гарантии" ></MenuItem>
+            <MenuItem Header="Отчет по списанным" ></MenuItem>
+        </MenuItem>
+        <MenuItem Header="Ремонт" >
+            <MenuItem Header="Список открытых ремонтов"></MenuItem>
+            <MenuItem Header="Список закрытых ремонтов за определенный период" ></MenuItem>
+            <MenuItem Header="Полный список" ></MenuItem>
+            <MenuItem Header="Создать новый ремонт " ></MenuItem>
+        </MenuItem>
+    </Menu>
+</Window>
+    
